@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KulinerApp</string>
+    <string name="foods_name">Nama Makanan</string>
+    <string name="detail">Detail</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="foto_makanan">Foto makanan</string>
+    <string name="my_name">Sahrul Hidayat</string>
+    <string name="my_email">sahrulhint@gmail.com</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="favorite_page">Favorite Page</string>
+</resources>
