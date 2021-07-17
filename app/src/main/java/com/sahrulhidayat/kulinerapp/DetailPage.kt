@@ -36,13 +36,13 @@ class DetailPage : AppCompatActivity() {
         val itemName = intent.getStringExtra(EXTRA_NAME)
         val itemCity = intent.getStringExtra(EXTRA_CITY)
         val itemPrice = intent.getStringExtra(EXTRA_PRICE)
-        val itemDetail = intent.getStringExtra(EXTRA_DESCRIPTION)
+        val itemDescription = intent.getStringExtra(EXTRA_DESCRIPTION)
 
         imgItemPhoto.setImageResource(itemPhoto)
         tvItemName.text = itemName
         tvItemCity.text = itemCity
         tvItemPrice.text = itemPrice
-        tvItemDescription.text = itemDetail
+        tvItemDescription.text = itemDescription
     }
 
     override fun onContextItemSelected(item: MenuItem): Boolean {
