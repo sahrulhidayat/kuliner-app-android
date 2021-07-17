@@ -23,11 +23,13 @@
             android:layout_height="150dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
             android:scaleType="fitXY"
             tools:src="@tools:sample/avatars"
             android:contentDescription="@string/foto_makanan" />
 
         <TextView
+            style="@style/fontHeading"
             android:id="@+id/tv_item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,11 +38,10 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:layout_toEndOf="@id/img_item_photo"
-            android:textSize="16sp"
-            android:textStyle="bold"
             tools:text="@string/foods_name" />
 
         <TextView
+            style="@style/fontDescription"
             android:id="@+id/tv_item_detail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -50,7 +51,7 @@
             android:layout_marginRight="16dp"
             android:layout_toEndOf="@id/img_item_photo"
             android:ellipsize="end"
-            android:maxLines="5"
+            android:maxLines="4"
             tools:text="@string/detail" />
 
         <LinearLayout

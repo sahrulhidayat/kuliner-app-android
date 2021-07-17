@@ -31,12 +31,19 @@ class CardViewAdapter(private val listFoods: ArrayList<Food>) : RecyclerView.Ada
         holder.tvName.text = item.name
         holder.tvDetail.text = item.description
 
-        holder.btnDetail.setOnClickListener {
+        fun intentToDetailPage() {
             val showDetailPage = Intent(mContext, DetailPage::class.java)
             showDetailPage.putExtra(DetailPage.EXTRA_PHOTO, listFoods[holder.adapterPosition].photo)
             showDetailPage.putExtra(DetailPage.EXTRA_NAME, listFoods[holder.adapterPosition].name)
+            showDetailPage.putExtra(DetailPage.EXTRA_CITY, listFoods[holder.adapterPosition].city)
+            showDetailPage.putExtra(DetailPage.EXTRA_PRICE, listFoods[holder.adapterPosition].price)
             showDetailPage.putExtra(DetailPage.EXTRA_DESCRIPTION, listFoods[holder.adapterPosition].description)
             mContext.startActivity(showDetailPage) }
+
+        holder.btnDetail.setOnClickListener { intentToDetailPage() }
+
+        holder.itemView.setOnClickListener { intentToDetailPage() }
+
         holder.btnShare.setOnClickListener { Toast.makeText(holder.itemView.context, "Share " + listFoods[holder.adapterPosition].name,
             Toast.LENGTH_SHORT).show() }
     }
