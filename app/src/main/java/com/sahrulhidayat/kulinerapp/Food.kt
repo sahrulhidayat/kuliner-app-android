@@ -5,5 +5,6 @@ data class Food (
     var description: String = "",
     var city: String = "",
     var price: String = "",
+    var tags: String = "",
     var photo: Int = 0
 )

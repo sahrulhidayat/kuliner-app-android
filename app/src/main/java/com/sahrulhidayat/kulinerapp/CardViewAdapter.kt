@@ -37,6 +37,7 @@ class CardViewAdapter(private val listFoods: ArrayList<Food>) : RecyclerView.Ada
             showDetailPage.putExtra(DetailPage.EXTRA_NAME, listFoods[holder.adapterPosition].name)
             showDetailPage.putExtra(DetailPage.EXTRA_CITY, listFoods[holder.adapterPosition].city)
             showDetailPage.putExtra(DetailPage.EXTRA_PRICE, listFoods[holder.adapterPosition].price)
+            showDetailPage.putExtra(DetailPage.EXTRA_TAGS, listFoods[holder.adapterPosition].tags)
             showDetailPage.putExtra(DetailPage.EXTRA_DESCRIPTION, listFoods[holder.adapterPosition].description)
             mContext.startActivity(showDetailPage) }
 
