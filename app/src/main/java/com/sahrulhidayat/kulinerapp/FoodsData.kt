@@ -12,18 +12,18 @@ object FoodsData {
         "Mie Aceh",
         "Rendang")
 
-    private val foodCities = arrayOf("Asal: Sumatera Utara",
+    private val foodCities = arrayOf("Sumatera Utara",
         "Batak Toba",
         "Medan",
         "Ambon",
         "Jambi",
         "Aceh",
         "Sumatera Barat",
-        "ceh",
+        "Aceh",
         "Aceh",
         "Padang")
 
-    private val foodPrices = arrayOf("Harga: Rp.10.000",
+    private val foodPrices = arrayOf("Rp.10.000",
         "Rp.80.000",
         "Rp.50.000",
         "Rp.67.000",
@@ -34,7 +34,7 @@ object FoodsData {
         "Rp.22.000",
         "Rp.75.000")
 
-    private val foodTags = arrayOf("Tags: Gurih, Pedas, Murah",
+    private val foodTags = arrayOf("Gurih, Pedas, Murah",
         "Gurih, Pedas, Nagih",
         "Enak, Nagih, Lezat",
         "Manis, Enak, Nagih",
