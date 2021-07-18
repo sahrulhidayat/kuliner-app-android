@@ -10,4 +10,8 @@
     <string name="my_email">sahrulhint@gmail.com</string>
     <string name="add_favorite">Add Favorite</string>
     <string name="favorite_page">Favorite Page</string>
+    <string name="daerah_asal">Daerah Asal</string>
+    <string name="harga">Harga</string>
+    <string name="tags">Tags</string>
+    <string name="deskripsi">Deskripsi</string>
 </resources>

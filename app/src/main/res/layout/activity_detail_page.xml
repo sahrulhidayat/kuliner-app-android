@@ -43,13 +43,33 @@
 
         <TextView
             style="@style/fontDescription"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/daerah_asal" />
+
+        <TextView
+            style="@style/fontDescription"
             android:id="@+id/tv_item_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:textStyle="italic"
+            android:layout_marginTop="2dp"
             tools:text="Daerah Asal" />
+
+        <TextView
+            style="@style/fontDescription"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/harga" />
 
         <TextView
             style="@style/fontDescription"
@@ -63,12 +83,23 @@
 
         <TextView
             style="@style/fontDescription"
-            android:id="@+id/tv_item_tags"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="4dp"
+            android:text="@string/tags" />
+
+        <TextView
+            style="@style/fontDescription"
+            android:textStyle="italic"
+            android:id="@+id/tv_item_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
             android:layout_marginBottom="4dp"
             tools:text="Tags" />
 
@@ -82,12 +113,22 @@
 
         <TextView
             style="@style/fontDescription"
-            android:id="@+id/tv_item_description"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
+            android:text="@string/deskripsi" />
+
+        <TextView
+            style="@style/fontDescription"
+            android:id="@+id/tv_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
             android:layout_marginBottom="4dp"
             tools:text="Deskripsi" />
 
